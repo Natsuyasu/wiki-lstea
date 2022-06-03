@@ -3,9 +3,11 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 
 import GlobalFooter from './components/GlobalFooter.vue';
+import HomeHeader from './components/HomeHeader.vue';
 </script>
 
 <template>
+  <HomeHeader />
   <div class="container mx-auto my-5">
     <div class="flex sm:justify-center space-x-4" id="nav">
       <router-link
