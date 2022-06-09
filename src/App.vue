@@ -4,10 +4,12 @@
 
 import GlobalFooter from './components/GlobalFooter.vue';
 import HomeHeader from './components/HomeHeader.vue';
+import SideBar from './components/SideBar.vue';
 </script>
 
 <template>
   <HomeHeader />
+  <SideBar />
   <div class="container mx-auto my-5">
     <div class="flex sm:justify-center space-x-4" id="nav">
       <router-link
